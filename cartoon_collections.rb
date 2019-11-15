@@ -1,5 +1,5 @@
 def roll_call_dwarves# code an argument here
-  roll_call_dwarves(dwarves)
+  def roll_call_dwarves(dwarves)
   i = 0 
   while i < dwarves.length do 
   puts "#{i + 1}. #{dwarves[i]}"
